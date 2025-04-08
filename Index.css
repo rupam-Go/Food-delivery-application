@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    /* background-color: blanchedalmond; */
+}
+
+.prt2{
+    width: 100%;
+    height: 100%;
+    /* background-color: aquamarine; */
+    position: relative;
+    font-family: poppins;
+}
+
+.prt2 .upper-prt2{
+    width: 100%;
+    height: 25%;
+    background-color: rgb(255, 255, 255);
+    /* position: relative; */
+    text-align: center;
+    
+   
+    
+   
+   
+}
+.upper-prt2 .text1{
+    /* background-color: aqua; */
+    /* margin-top: 50px; */
+    padding-top: 5vh;
+    /* width: 50px ; */
+    font-size: 30px;
+    
+    
+}
+
+.upper-prt2 .text2{
+    /* background-color: brown; */
+    padding-top: 1vh;
+    font-size: 19px;
+    /* position: absolute; */
+    
+   
+
+   
+}
+
+.prt2 .lower-prt2{
+    width: 100%;
+    height: calc(100% - 25%);
+    background-color: rgb(235, 235, 235);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding: 0px 200px 0px 200px;
+    
+}
+
+.lower-prt2 .recipes-poplar{
+
+    width: 16vw;
+    height: 50vh;
+    /* background-color: blue; */
+    border-radius: 40px;
+    /* display: flex; */
+    /* justify-content: center; */
+    padding: 0px 30px;
+    text-align: center;
+border: 2px solid black;
+
+
+
+}
+
+.recipes-poplar .image{
+   width: 100%;
+   height: 40%;
+   /* background-color: aqua; */
+    margin-top: 22px;
+   /* margin-left: 23px;  */
+   background-image: url('Images/Briyani.jpg');
+   background-size: cover;
+   border-radius: 20px;
+
+}
+
+.recipes-poplar button{
+    margin-top: 1vh;
+    width: 200px;
+    height: 40px;
+    /* background-color: brown; */
+    border-radius: 20vw;
+   border: 1px solid black;
+    font-size: medium;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: orange;
+}
+
+
+
+
